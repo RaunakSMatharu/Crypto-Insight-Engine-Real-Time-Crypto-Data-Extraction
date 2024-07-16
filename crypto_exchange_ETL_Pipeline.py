@@ -69,8 +69,8 @@ def _fetch_data_from_api():
     params={
         'vs_currency':'usd',
         'order':'market_cap_desc',
-        'per_page':10,
-        'page':10,
+        #'per_page':10,
+        #'page':10,
         'sparkline':False
     }
     response=requests.get(url,params=params)
